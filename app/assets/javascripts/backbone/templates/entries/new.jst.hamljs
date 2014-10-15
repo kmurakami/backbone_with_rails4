@@ -1,0 +1,16 @@
+%h1 New entry
+
+%form#new-entry{name: "entry"}
+
+  .field
+    %label{for: "name"} name:
+    %input#name{type: "text", name: "name", value: "#{name}"}
+
+  .field
+    %label{for: "winner"} winner:
+    %input#winner{type: "text", name: "winner", value: "#{winner}"}
+
+  .actions
+    %input{type: "submit", value: "Create Entry"}
+
+%a{href: "/#entries/index"} Back

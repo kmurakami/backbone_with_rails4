@@ -1,0 +1,9 @@
+%p
+  %b Name:
+  = name
+
+%p
+  %b Winner:
+  = winner
+
+%a{href: "/#entries/index"} Back

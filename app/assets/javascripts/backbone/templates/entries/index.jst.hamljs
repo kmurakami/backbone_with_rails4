@@ -1,0 +1,13 @@
+%h1 Listing entries
+
+%table#entries-table
+  %tr
+    %th Name
+    %th Winner
+    %th
+    %th
+    %th
+
+%br
+
+%a{href: "/#entries/new"} New Entry

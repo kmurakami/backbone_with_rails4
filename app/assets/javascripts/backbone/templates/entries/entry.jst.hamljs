@@ -1,0 +1,15 @@
+%td
+  = name
+
+%td
+  = winner
+
+%td
+  %a{href: "#entries/#{id}"}
+    Show
+%td
+  %a{href: "#entries/#{id}/edit"}
+    Edit
+%td
+  %a.destroy{href: "#entries/#{id}/destroy"}
+    Destroy
